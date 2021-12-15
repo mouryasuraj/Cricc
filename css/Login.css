@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Zen+Old+Mincho:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* html{
+    display:none;
+} */
+
+/* ===============Login===================================================================================== */
+body {
+  background-color: rgb(186, 185, 197);
+}
+.top {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border: 1px solid black;
+  height: 70px;
+  background-color: black;
+  position: sticky;
+  top: 0px;
+}
+.register {
+  margin: -43px 30px 0 0;
+  float: right;
+  display: flex;
+}
+.header {
+  margin-top: 3px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  border: 5px solid beige;
+  height: 700px;
+  display: flex;
+  background-image: url('./Image/img4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo img {
+  margin: 150px 0 0 310px;
+  width: 300px;
+  height: 300px;
+}
+.logo-name {
+  margin: -35px 0 0 320px;
+  font-size: 100px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.card {
+  box-shadow: 3px 3px 5px black;
+  border-radius: 20px;
+  margin: 220px 0 0 100px;
+  border: 1px solid gray;
+  width: 340px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(241, 241, 241);
+  padding: 10px;
+  height: 280px;
+}
+.alert{
+    color: red;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.alert1{
+    display: none;
+}
+.alert .bi{
+    margin-top: 3px;
+}
+.alert p{
+    margin-left: 3px;
+}
+.card h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.input {
+  text-align: center;
+}
+.input1,
+.input2 {
+  font-size: 16px;
+  margin: 8px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 220px;
+  height: 30px;
+
+}
+.login {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.login-btn,
+.sign-up {
+  color: black;
+  background-color: white;
+  padding: 6px 18px;
+  border: 1px solid rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+.register p {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.forget {
+  color: black;
+  text-decoration: none;
+}
+.fgt {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.login-btn:hover {
+    transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.sign-up:hover {
+  background-color: rgb(235, 235, 235);
+  color: black;
+}
+.card1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* margin-top: 300px; */
+  color: white;
+  height: 500px;
+  background-color: black;
+  border: 1px solid black;
+}
+.card2 img {
+  margin: 10px 0 0 680px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.card2 h1 {
+  margin: 2px 0 0 713px;
+}
+.card1 h2 {
+  border-radius: 50px;
+  padding: 5px 0;
+  width: 190px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 660px;
+}
+.icons {
+  margin-top: 20px;
+  margin-left: 670px;
+  display: flex;
+}
+.svg1 {
+  margin-left: 20px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.copy {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+.svg1:hover {
+  color: rgb(251, 255, 0);
+  transition: 0.8s;
+}
+.header::selection {
+  background-color: white;
+  color: black;
+}
+.register p::selection {
+  background-color: white;
+  color: black;
+}
+.register .sign-up::selection {
+  background-color: black;
+  color: white;
+}
+.card1 p::selection {
+  background-color: white;
+  color: black;
+}
+.card2 h1::selection {
+  background-color: white;
+  color: black;
+}
+.card2 img::selection {
+  background-color: white;
+  color: black;
+}
+.logo img::selection {
+  background-color: white;
+}
+.logo p::selection {
+  background-color: black;
+  color: white;
+}
+.card h1::selection {
+  background-color: black;
+  color: white;
+}
+input::selection {
+  background-color: black;
+  color: white;
+}
+.login-btn::selection {
+  background-color: black;
+  color: white;
+}
+.forget::selection {
+  background-color: black;
+  color: white;
+}
+.card1 h2::selection {
+  background-color: black;
+  color: white;
+}
+.logo img {
+  animation-name: img;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes img {
+  0% {
+    transform: rotate(-40deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+.forget:hover {
+  color: green;
+}
+

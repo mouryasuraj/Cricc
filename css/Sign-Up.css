@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Zen+Old+Mincho:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+/* html{
+    display:none;
+} */
+
+
+
+
+/* ===============Signup===================================================================================== */
+body{
+    background-color:rgb(186, 185, 197);
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    
+    
+}
+.card1{
+    border: 1px solid black;
+    align-items: center;
+    padding-top: 3px;
+    margin-left: 3px;
+}
+.card2{
+    margin-top: 5px;
+    margin-right: 50px;
+    border: 1px solid black;
+    padding-top: 17px;
+}
+.card2 a{
+    border-radius: 5px; 
+    padding: 8px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    
+    
+}
+.card2 a:hover{
+    transition: 0.3s;
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+.header{
+    width: auto;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bg-image{
+    background-image: url("./Image/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    text-align: center;
+    
+   
+}
+/* :root{
+    --box-color:red;
+} */
+.logo{
+    margin: 0;
+    text-align: center;
+    
+}
+.logo img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.card3{
+    box-shadow: 3px 3px 5px  black;
+    border-radius: 20px;
+    width: 490px;
+    margin: auto;
+    /* background-color: var(--box-color); */
+    background-color: rgb(241, 241, 241);
+    border: 1px solid lightgray;
+}
+.input1{
+    height: 30px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+.input2{
+    height: 30px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 425px;
+}
+.input3{
+    height: 30px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 195px;
+}
+.input4 {
+    width: 16px;
+    height: 16px;
+}
+.checkbx{
+    color:green;
+    text-decoration: none;
+}
+.checkbx:hover{
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.check-box{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    padding: 15px;
+}
+p{
+    font-size: 14px;
+}
+.c1{
+    display: flex;
+}
+.btn{
+    padding-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+.btn2{
+    margin: auto;
+    color: rgb(3, 100, 3);
+    background-color: white;
+    padding: 6px 18px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.33s;
+}
+.btm-card{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-top: 300px; */
+    color: white;
+    height: 500px;
+    background-color: black;
+    border: 1px solid black;
+}
+.card4{
+    margin: 10px;
+    text-align: center;
+}
+.card4 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.alert{
+    color: red;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.alert2{
+    margin-top: 5px;
+    display:none;
+}
+.alert .bi{
+    margin-top: 3px;
+}
+.alert p{
+    margin-left: 3px;
+}
