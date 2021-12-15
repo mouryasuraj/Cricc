@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+a {
+    border: 1px solid black;
+    background-color: gray;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    margin: 10px;
+}
+
+a:hover {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.btn {
+    margin-top: 50px;
+}
